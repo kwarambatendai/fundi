@@ -49,7 +49,7 @@
           </nav>
           {% endif %}
         </div>
-        <div class="col-md-3">
+        <!--<div class="col-md-3">
           ## Please leave this link and use one of the logos provided
           ## The OpenEdX link may be hidden when this view is served
           ## through an API to partner sites (such as marketing sites or blogs),
@@ -79,7 +79,7 @@
       % if bidi:
         dir=${bidi}
       % endif
-    >
+    -->
       <div class="colophon">
         {% if INDIGO_FOOTER_NAV_LINKS %}
         <nav class="nav-colophon" aria-label="${_('About')}">
@@ -141,7 +141,7 @@
       % if not hide_openedx_link:
       <div class="footer-about-openedx">
         <p>
-          <a href="https://fundiacademy" rel="noopener" target="_blank">
+          <a href="https://fundiacademy.com" rel="noopener" target="_blank">
             <img src="${static.url('images/tutor-logo.png')}" height="42" />
           </a>
           <a href="${footer['openedx_link']['url']}" rel="noopener" target="_blank">
