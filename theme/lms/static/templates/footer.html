@@ -49,7 +49,7 @@
           </nav>
           {% endif %}
         </div>
-        <!--<div class="col-md-3">
+        <div class="col-md-12">
           ## Please leave this link and use one of the logos provided
           ## The OpenEdX link may be hidden when this view is served
           ## through an API to partner sites (such as marketing sites or blogs),
@@ -79,7 +79,7 @@
       % if bidi:
         dir=${bidi}
       % endif
-    -->
+    
       <div class="colophon">
         {% if INDIGO_FOOTER_NAV_LINKS %}
         <nav class="nav-colophon" aria-label="${_('About')}">
@@ -133,7 +133,7 @@
         </nav>
         {% endif %}
       </div>
-
+<!--
       ## Please leave this link and use one of the logos provided
       ## The OpenEdX link may be hidden when this view is served
       ## through an API to partner sites (such as marketing sites or blogs),
@@ -151,7 +151,7 @@
       </div>
       % endif
     </footer>
-  </div>
+  </div>-->
 % endif
 % if include_dependencies:
   <%static:js group='base_vendor'/>
