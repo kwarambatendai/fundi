@@ -1,8 +1,8 @@
-{% ____i18n____ %}
-{% ____load_ace____ %}
+<div {% i18n %}
+     {% load ace %}
 
-{% get_current_language as LANGUAGE_CODE %}
-{% get_current_language_bidi as LANGUAGE_BIDI %}
+     {% get_current_language as LANGUAGE_CODE %}
+     {% get_current_language_bidi as LANGUAGE_BIDI %}
 
 {# This is preview text that is visible in the inbox view of many email clients but not visible in the actual #}
 {# email itself. #}
