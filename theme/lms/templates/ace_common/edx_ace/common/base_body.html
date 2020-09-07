@@ -20,7 +20,7 @@
     {% block preview_text %}{% endblock %}
 </div>
 
-<!-- TEST RED THEME MARKER: Do not remove this comment, it is used by the tests to tell if this theme was used -->
+<!-- TEST RED THEME MARKER: Do not remove this comment, it is used by the tests to tell if this theme was used >
 
 {% for image_src in channel.tracker_image_sources %}
     <img src="{image_src}" alt="" role="presentation" aria-hidden="true" />
@@ -63,7 +63,7 @@
                     <tr>
                         <td width="70">
                             <a href="{% with_link_tracking homepage_url %}"><img
-                                    src="http://fundiacademy.com/fundi/static/images/logo.png"
+                                    src="http://fundiacademy.com/static/fundi/images/logo.png"
                                     alt="{% blocktrans %}Go to {{ platform_name }} Home Page{% endblocktrans %}"/></a>
                         </td>
                         <td align="right" style="text-align: {{ LANGUAGE_BIDI|yesno:"left,right" }};">
@@ -90,7 +90,7 @@
                 <table role="presentation" width="100%" align="left" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td style="padding-bottom: 20px;">
-                            <!-- SOCIAL -->
+                            <!-- SOCIAL 
                             <table role="presentation" align="{{ LANGUAGE_BIDI|yesno:"right,left" }}" border="0" border="0" cellpadding="0" cellspacing="0" width="210">
                                 <tr>
                                     {% if social_media_urls.linkedin %}
@@ -138,7 +138,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <!-- APP BUTTONS -->
+                        <!-- APP BUTTONS 
                         <td style="padding-bottom: 20px;">
                             {% if mobile_store_urls.apple %}
                                 <a href="{{ mobile_store_urls.apple|safe }}" style="text-decoration: none">
